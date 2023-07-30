@@ -6,6 +6,10 @@ HOSTAPP_HOOKS_append_rockpi-4b-rk3399 = " \
     99-flash-bootloader \
 "
 
+HOSTAPP_HOOKS_append_rockpi-4c-rk3399 = " \
+    99-flash-bootloader \
+"
+
 HOSTAPP_HOOKS_append_radxa-cm3-io-rk3566 = " \
     99-flash-bootloader-radxa-cm3-io-rk3566 \
 "

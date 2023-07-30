@@ -11,8 +11,8 @@ postProvisioningInstructions = [
 
 module.exports =
 	version: 1
-	slug: 'rockpi-4b-rk3399'
-	name: 'ROCK Pi 4B'
+	slug: 'rockpi-4c-rk3399'
+	name: 'ROCK Pi 4C'
 	arch: 'aarch64'
 	state: 'new'
 
@@ -26,19 +26,19 @@ module.exports =
 	].concat(postProvisioningInstructions)
 
 	gettingStartedLink:
-		windows: 'https://www.balena.io/docs/learn/getting-started/rockpi-4b-rk3399/nodejs/'
-		osx: 'https://www.balena.io/docs/learn/getting-started/rockpi-4b-rk3399/nodejs/'
-		linux: 'https://www.balena.io/docs/learn/getting-started/rockpi-4b-rk3399/nodejs/'
+		windows: 'https://www.balena.io/docs/learn/getting-started/rockpi-4c-rk3399/nodejs/'
+		osx: 'https://www.balena.io/docs/learn/getting-started/rockpi-4c-rk3399/nodejs/'
+		linux: 'https://www.balena.io/docs/learn/getting-started/rockpi-4c-rk3399/nodejs/'
 	supportsBlink: true
 
 	options: [ networkOptions.group ]
 
 	yocto:
-		machine: 'rockpi-4b-rk3399'
+		machine: 'rockpi-4c-rk3399'
 		image: 'balena-image'
 		fstype: 'balenaos-img'
 		version: 'yocto-dunfell'
-		deployArtifact: 'balena-image-flasher-rockpi-4b-rk3399.balenaos-img'
+		deployArtifact: 'balena-image-flasher-rockpi-4c-rk3399.balenaos-img'
 		compressed: true
 
 	configuration:
