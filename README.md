@@ -27,6 +27,9 @@ See below for using the build script.
 
 * You can also run barys with the -h switch to inspect the available options
 
+* NOTE: The version of Docker on your host system must be the same as that
+expected by the build system: Currently Docker v20.x.x
+
 ### Custom build using this repository
 
 * Run the build script in dry run mode to setup an empty `build` directory
@@ -38,6 +41,9 @@ See below for using the build script.
     `source layers/poky/oe-init-build-env`
 
 * Run bitbake (see message outputted when you sourced above for examples)
+
+* NOTE: The version of Docker on your host system must be the same as that
+expected by the build system: Currently Docker v20.x.x
 
 ## Contributing
 
