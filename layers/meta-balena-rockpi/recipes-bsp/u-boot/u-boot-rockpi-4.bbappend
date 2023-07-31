@@ -12,8 +12,8 @@ SRC_URI_append_rockpi-4b-rk3399 = " \
     file://0003-Revert-cmd-nvedit-add-0x-prefix-for-hex-value.patch \
 "
 
-SRC_URI_append_rockpi-4c-rk3399 = " \
-    file://0001-Integrate-with-Balena-u-boot-environment_rockpi4c.patch \
+SRC_URI_append_rock-4c-plus-rk3399 = " \
+    file://0001-Integrate-with-Balena-u-boot-environment_rock4cplus.patch \
     file://0002-fs-fat-fix-wrong-casting-to-unsigned-value-of-sect_t.patch \
     file://0003-Revert-cmd-nvedit-add-0x-prefix-for-hex-value.patch \
 "
@@ -21,8 +21,8 @@ SRC_URI_append_rockpi-4c-rk3399 = " \
 BALENA_BOOT_PART_rockpi-4b-rk3399 = "4"
 BALENA_DEFAULT_ROOT_PART_rockpi-4b-rk3399 = "5"
 
-BALENA_BOOT_PART_rockpi-4c-rk3399 = "4"
-BALENA_DEFAULT_ROOT_PART_rockpi-4c-rk3399 = "5"
+BALENA_BOOT_PART_rock-4c-plus-rk3399 = "4"
+BALENA_DEFAULT_ROOT_PART_rock-4c-plus-rk3399 = "5"
 
 do_compile_append() {
     # create bootloader image

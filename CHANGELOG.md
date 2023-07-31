@@ -4,7 +4,7 @@ Change log
 # vTBD
 # (2023-07-30)
 
-* Add support for * Improve the provisioning instructions for rockpi-4c-rk3399 [Alex J Lennon]
+* Add support for * Improve the provisioning instructions for rock-4c-plus-rk3399 [Alex J Lennon]
 
 # v2.114.23+rev1
 ## (2023-06-26)

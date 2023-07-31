@@ -6,7 +6,7 @@ HOSTAPP_HOOKS_append_rockpi-4b-rk3399 = " \
     99-flash-bootloader \
 "
 
-HOSTAPP_HOOKS_append_rockpi-4c-rk3399 = " \
+HOSTAPP_HOOKS_append_rock-4c-plus-rk3399 = " \
     99-flash-bootloader \
 "
 
