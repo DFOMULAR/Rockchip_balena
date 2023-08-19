@@ -17,6 +17,7 @@ SRC_URI_append_rock-4c-plus-rk3399 = " \
     file://0002-fs-fat-fix-wrong-casting-to-unsigned-value-of-sect_t.patch \
     file://0003-Revert-cmd-nvedit-add-0x-prefix-for-hex-value.patch \
 "
+SRCREV_rock-4c-plus-rk3399 = "8e67d581610eb7abd97885e1069b94dcf15b592c"
 
 BALENA_BOOT_PART_rockpi-4b-rk3399 = "4"
 BALENA_DEFAULT_ROOT_PART_rockpi-4b-rk3399 = "5"

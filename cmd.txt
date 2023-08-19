@@ -1,0 +1,2 @@
+./balena-yocto-scripts/build/balena-build.sh -g "-d" -s /home/sw/work/yocto/balena -d rockpi-4c-rk3399 -k
+./balena-yocto-scripts/build/balena-build.sh -g "-d -k" -s /home/sw/work/yocto/balena -d rock-4c-plus-rk3399 -k
